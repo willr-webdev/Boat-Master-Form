@@ -23,7 +23,7 @@ ul {
 }
 
 .wrapper {
-  background-image: url("/assets/red-dinghy_mobile.png");
+  background-image: url("/assets/red-dinghy_mobile.jpg");
   background-blend-mode:screen;
   background-color: var(--background);
   background-repeat: no-repeat;
