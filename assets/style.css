@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap');
+
+:root {
+  --background: beige;  
+  --boating-blue: #191970;
+  --accent: rgb(1, 97, 1);
+  font-family: 'Oswald', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--boating-blue);
+  background-color: var(--background);
+}
+
+a {
+  color: rgb(34, 34, 34);
+}
+
+ul {
+  list-style-type: none;
+}
+
+title {
+  text-align: center;
+}
+
+.wrapper {
+  /* margin: 3em; */
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.form label {
+  text-align: right;
+  margin-top: 1em;
+  padding-right: 1em;
+  line-height: 1.5em;
+  font-size: 1.1em;
+}
+
+.form input {
+  margin-top: 1em;
+  padding-left: .3em;
+  line-height: 1.5em;
+  font-size: 1em;
+}
+
+hr {
+  color: var(--boating-blue);
+  
+}
+
+button {
+  background-color: var(--boating-blue);
+  color: var(--background);
+  font-size: 1.2em;
+  grid-column: 1 / -1;
+  border-radius: .5em;
+  line-height: 1.2em;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
