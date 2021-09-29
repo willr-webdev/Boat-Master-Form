@@ -63,7 +63,7 @@ hr {
 }
 
 button {
-  background-color: var(--boating-blue);
+  /* background-color: var(--boating-blue); */
   color: var(--background);
   font-size: 1.2em;
   grid-column: 1 / -1;
