@@ -23,7 +23,10 @@ ul {
 }
 
 .wrapper {
-  /* margin: 3em; */
+  background-image: url("/assets/red-dinghy.png");
+  background-blend-mode:screen;
+  background-color: var(--background);
+  background-repeat: no-repeat;
   text-align: center;
 }
 
