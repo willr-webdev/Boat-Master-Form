@@ -22,13 +22,17 @@ ul {
   list-style-type: none;
 }
 
+.wrapper {
+  /* margin: 3em; */
+  text-align: center;
+}
+
 title {
   text-align: center;
 }
 
-.wrapper {
-  /* margin: 3em; */
-  text-align: center;
+hr {
+  color: var(--boating-blue);
 }
 
 .form-container {
@@ -57,9 +61,8 @@ title {
   font-size: 1em;
 }
 
-hr {
-  color: var(--boating-blue);
-  
+.form-section {
+  margin-bottom: 25px;
 }
 
 button {
@@ -69,7 +72,7 @@ button {
   grid-column: 1 / -1;
   border-radius: .5em;
   line-height: 1.5em;
-  margin-top: 1.5em;
+  margin-top: .5em;
   margin-bottom: 1em;
   padding-top: .5em;
   padding-bottom: .5em;
