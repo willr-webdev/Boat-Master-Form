@@ -71,4 +71,6 @@ button {
   line-height: 1.5em;
   margin-top: 1.5em;
   margin-bottom: 1em;
+  padding-top: .5em;
+  padding-bottom: .5em;
 }
